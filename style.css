@@ -10,6 +10,7 @@
   --white-color: #fff;
   --blue-color: #4070f4;
   --grey-color: #707070;
+  --purple-color: #8572f2;
   --grey-color-light: #aaa;
   --black-color: #000;
 }
@@ -193,7 +194,7 @@ body.dark {
   left: -20px;
 }
 .navlink_icon:hover {
-  background: var(--blue-color);
+  background: var(--purple-color);
 }
 .sidebar .nav_link {
   display: flex;
@@ -214,7 +215,7 @@ body.dark {
 }
 .nav_link:hover {
   color: var(--white-color);
-  background: var(--blue-color);
+  background: var(--purple-color);
 }
 .sidebar.close .nav_link:hover {
   background: var(--white-color);
